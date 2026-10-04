@@ -1,0 +1,13 @@
+{
+  "name": "resumex-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ResumeX — AI Resume Screening & Ranking System",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "start": "npm --prefix frontend run dev",
+    "backend": "javac -d bin -cp \"lib/*:bin\" $(find src -name \"*.java\") && java -cp \"lib/*:bin\" com.resumex.api.ResumeXApiServer"
+  }
+}
