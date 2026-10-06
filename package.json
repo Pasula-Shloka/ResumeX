@@ -5,7 +5,7 @@
   "description": "ResumeX — AI Resume Screening & Ranking System",
   "scripts": {
     "dev": "npm --prefix frontend run dev",
-    "build": "npm --prefix frontend run build",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && rm -rf dist && cp -r frontend/dist dist",
     "preview": "npm --prefix frontend run preview",
     "start": "npm --prefix frontend run dev",
     "backend": "javac -d bin -cp \"lib/*:bin\" $(find src -name \"*.java\") && java -cp \"lib/*:bin\" com.resumex.api.ResumeXApiServer"
