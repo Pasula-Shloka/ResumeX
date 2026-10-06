@@ -1,48 +1,32 @@
-# 🚀 ResumeX — AI Resume Screening & Intelligent Candidate Ranking System
+# 🚀 ResumeX — AI Resume Screening & Ranking System
 
-### 🌐 Live Working Link:
-👉 **[https://pasula-shloka.github.io/AI-ResumeScreening/](https://pasula-shloka.github.io/AI-ResumeScreening/)** 👈
+### 🌐 Live Application Link:
+👉 **[https://pasula-shloka.github.io/ResumeX/](https://pasula-shloka.github.io/ResumeX/)** 👈
 
 ---
 
-## 💻 Quick Run Guide
-
-### 1. Run Java DSA Backend (Eclipse)
-- Open project in **Eclipse IDE**.
-- Right-click `src/com/resumex/api/ResumeXApiServer.java` → **Run As** → **Java Application**.
-- Server runs on `http://localhost:8080`.
-
-### 2. Run Modern Frontend (VS Code / Terminal)
-```bash
-npm run dev
-```
-Open **[http://localhost:5173](http://localhost:5173)** in your browser.
+## 📌 Project Overview
+**ResumeX** is an intelligent candidate screening and resume ranking platform designed for modern recruitment workflows. It analyzes candidate resumes against job requisitions using 6 foundational Data Structures and Algorithms (DSA) implemented in Java with a modern interactive frontend.
 
 ---
 
 ## 🧠 Core DSA Algorithms (Java Backend)
-
-All 6 algorithms are implemented in **pure Java** inside the Eclipse project:
-
-1. **String Matching**: `KMPMatcher.java` — Knuth-Morris-Pratt $O(N + M)$ skill & keyword search.
-2. **Edit Distance**: `EditDistance.java` — Levenshtein Dynamic Programming for typo & spelling tolerance.
-3. **Sequence Alignment**: `SequenceAlignment.java` — Needleman-Wunsch DP global sequence alignment.
-4. **Suffix Array**: `SuffixArray.java` — Full-text substring search and index construction.
-5. **LCP Array**: `LCPArray.java` — Kasai's linear $O(N)$ Longest Common Prefix analysis.
-6. **Hashing**: `Hashing.java` & `DuplicateDetector.java` — SHA-256 cryptographic hashing & duplicate audit.
-7. **Approximation Algorithm**: `ApproximateMatcher.java` — Greedy multi-criteria optimization.
+1. **String Matching**: Knuth-Morris-Pratt (KMP) $O(N + M)$ skill and keyword search (`KMPMatcher.java`)
+2. **Edit Distance**: Levenshtein Dynamic Programming for typo and spelling tolerance (`EditDistance.java`)
+3. **Sequence Alignment**: Needleman-Wunsch DP global sequence alignment (`SequenceAlignment.java`)
+4. **Suffix Array**: Full-text substring search and index construction (`SuffixArray.java`)
+5. **LCP Array**: Kasai's linear $O(N)$ Longest Common Prefix analysis (`LCPArray.java`)
+6. **Hashing**: SHA-256 cryptographic hashing & duplicate audit (`Hashing.java`, `DuplicateDetector.java`)
+7. **Approximation Algorithm**: Greedy multi-criteria optimization (`ApproximateMatcher.java`)
 
 ---
 
-## 📁 Project Architecture
-```text
-ResumeX/
-├── Eclipse/     --> Java Backend + 6 DSA Algorithms (Port 8080)
-└── VS Code/     --> Modern React + Vite Frontend (Port 5173)
-```
+## 🏛️ Architecture
+- **Backend (Eclipse)**: Java SE 17+ DSA Engine, Apache PDFBox 3.0.8 text extraction, REST API Server (Port 8080)
+- **Frontend (VS Code)**: React + Vite Interactive Platform
 
 ---
 
-## 📄 Documentation & PDF Report
-- Comprehensive Project Documentation: [`PROJECT_DOCUMENTATION.md`](./PROJECT_DOCUMENTATION.md)
+## 📄 Documentation
+- Detailed Technical Report: [`PROJECT_DOCUMENTATION.md`](./PROJECT_DOCUMENTATION.md)
 - Official PDF Report: [`ResumeX_Project_Documentation.pdf`](./ResumeX_Project_Documentation.pdf)
